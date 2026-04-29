@@ -26,7 +26,7 @@ import { RouterModule } from '@angular/router';
           <a href="mailto:2003swatikbarik@gmail.com?subject=Resume Request" class="btn-action primary">
             <span>⚡</span> REQUEST FULL PDF
           </a>
-          <a href="https://linkedin.com/in/swatik-barik" target="_blank" class="btn-action secondary">
+          <a href="https://www.linkedin.com/in/swatik-barik-11666927a/" target="_blank" class="btn-action secondary">
             <span>in</span> LINKEDIN PROFILE
           </a>
         </div>
