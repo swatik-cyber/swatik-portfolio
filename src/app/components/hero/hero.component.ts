@@ -83,7 +83,7 @@ import { RouterModule } from '@angular/router';
         <div class="social-row">
           <a href="mailto:2003swatikbarik@gmail.com" class="soc-link"><span class="soc-icon">✉</span> EMAIL</a>
           <span class="soc-sep">/</span>
-          <a href="https://linkedin.com/in/swatik-barik" target="_blank" class="soc-link"><span class="soc-icon">in</span> LINKEDIN</a>
+          <a href="https://www.linkedin.com/in/swatik-barik-11666927a/" target="_blank" class="soc-link"><span class="soc-icon">in</span> LINKEDIN</a>
           <span class="soc-sep">/</span>
           <a href="https://github.com/swatik-cyber" target="_blank" class="soc-link"><span class="soc-icon">gh</span> GITHUB</a>
           <span class="soc-sep">/</span>

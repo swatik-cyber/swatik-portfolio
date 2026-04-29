@@ -33,14 +33,6 @@ import { AuthService } from '../../services/auth.service';
             <span *ngIf="loading">AUTHENTICATING...</span>
           </button>
         </form>
-        <div class="demo-creds">
-          <div class="dc-title">Demo Credentials</div>
-          <div class="dc-row" *ngFor="let c of demos" (click)="fillCred(c)">
-            <span class="dc-role">{{ c.role }}</span>
-            <span class="dc-user">{{ c.user }}</span>
-            <span class="dc-pwd">{{ c.pwd }}</span>
-          </div>
-        </div>
         <a routerLink="/" class="back-link">← Back to Portfolio</a>
       </div>
     </div>
@@ -80,16 +72,6 @@ import { AuthService } from '../../services/auth.service';
     .btn-submit:hover:not(:disabled) { box-shadow:0 0 20px rgba(0,245,212,0.4); }
     .btn-submit:disabled { opacity:0.6; cursor:not-allowed; }
     .error { color:#f87171; font-family:'Space Mono',monospace; font-size:0.75rem; text-align:center; }
-    .demo-creds { border-top:1px solid rgba(0,245,212,0.1); padding-top:1.5rem; }
-    .dc-title { font-family:'Space Mono',monospace; font-size:0.65rem; color:#64748b; letter-spacing:2px; margin-bottom:0.75rem; }
-    .dc-row {
-      display:flex; gap:1rem; align-items:center; padding:0.5rem;
-      cursor:pointer; transition:background 0.2s; font-size:0.8rem;
-    }
-    .dc-row:hover { background:rgba(0,245,212,0.05); }
-    .dc-role { font-family:'Space Mono',monospace; font-size:0.65rem; color:#7c3aed; border:1px solid rgba(124,58,237,0.3); padding:0.1rem 0.4rem; }
-    .dc-user { color:#00f5d4; }
-    .dc-pwd { color:#64748b; font-family:'Space Mono',monospace; font-size:0.75rem; }
     .back-link { display:block; text-align:center; margin-top:1.5rem; color:#64748b; font-family:'Space Mono',monospace; font-size:0.75rem; text-decoration:none; }
     .back-link:hover { color:#00f5d4; }
   `]
@@ -101,15 +83,7 @@ export class LoginComponent {
   error = '';
   showPwd = false;
 
-  demos = [
-    { role: 'ADMIN', user: 'swatik', pwd: 'Admin@123' },
-    { role: 'MANAGER', user: 'hr_manager', pwd: 'Manager@123' },
-    { role: 'VIEWER', user: 'guest', pwd: 'Guest@123' }
-  ];
-
   constructor(private auth: AuthService, private router: Router) {}
-
-  fillCred(c: any) { this.username = c.user; this.password = c.pwd; }
 
   login() {
     if (!this.username || !this.password) return;
