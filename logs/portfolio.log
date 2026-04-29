@@ -1,0 +1,114 @@
+2026-04-29 09:38:29 [main] INFO  c.s.portfolio.PortfolioApplication - Starting PortfolioApplication using Java 22.0.1 with PID 6456 (C:\Users\2003s\Downloads\swatik_portfolio_backend_fixed (6)\backend_fixed\target\classes started by 2003s in C:\Users\2003s\Downloads\swatik_portfolio_backend_fixed (6)\backend_fixed)
+2026-04-29 09:38:29 [main] DEBUG c.s.portfolio.PortfolioApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-04-29 09:38:29 [main] INFO  c.s.portfolio.PortfolioApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-29 09:38:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-29 09:38:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 6 JPA repository interfaces.
+2026-04-29 09:38:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-29 09:38:32 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-29 09:38:32 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-04-29 09:38:32 [main] INFO  o.a.c.c.C.[.[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2026-04-29 09:38:32 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2895 ms
+2026-04-29 09:38:32 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-29 09:38:32 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2026-04-29 09:38:32 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-29 09:38:33 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-29 09:38:33 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-29 09:38:33 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6edb1e9c
+2026-04-29 09:38:33 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-04-29 09:38:33 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-29 09:38:34 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-29 09:38:34 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-29 09:38:35 [main] DEBUG c.s.portfolio.security.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2026-04-29 09:38:35 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-29 09:38:36 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+2026-04-29 09:38:36 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6ca6cc1c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75c8855e, org.springframework.security.web.context.SecurityContextHolderFilter@38911759, org.springframework.security.web.header.HeaderWriterFilter@61ee9672, org.springframework.web.filter.CorsFilter@4d5aeea7, org.springframework.security.web.authentication.logout.LogoutFilter@6ccf06f1, com.swatik.portfolio.security.JwtAuthFilter@7a02d760, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15d18b61, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@41ff98dc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3453cf27, org.springframework.security.web.session.SessionManagementFilter@56929ce, org.springframework.security.web.access.ExceptionTranslationFilter@270a113f, org.springframework.security.web.access.intercept.AuthorizationFilter@62065d12]
+2026-04-29 09:38:36 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/api'
+2026-04-29 09:38:36 [main] INFO  c.s.portfolio.PortfolioApplication - Started PortfolioApplication in 7.799 seconds (process running for 8.723)
+2026-04-29 09:38:37 [main] INFO  c.swatik.portfolio.config.DataSeeder - Data seeding complete.
+2026-04-29 09:38:37 [main] INFO  c.s.portfolio.PortfolioApplication - ======================================================
+2026-04-29 09:38:37 [main] INFO  c.s.portfolio.PortfolioApplication -    Swatik Barik Portfolio Backend - STARTED
+2026-04-29 09:38:37 [main] INFO  c.s.portfolio.PortfolioApplication -    API running at: http://localhost:8080/api
+2026-04-29 09:38:37 [main] INFO  c.s.portfolio.PortfolioApplication - ======================================================
+2026-04-29 09:38:37 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[.[localhost].[/api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-29 09:38:37 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-29 09:38:37 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-04-29 09:53:59 [http-nio-8080-exec-2] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/auth/login' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-04-29 09:53:59 [http-nio-8080-exec-2] INFO  c.s.p.controller.AuthController - Login attempt for user: 2003swatikbarik@gmail.com
+2026-04-29 09:54:00 [http-nio-8080-exec-2] WARN  c.s.p.controller.AuthController - Login failed for: 2003swatikbarik@gmail.com
+2026-04-29 09:54:06 [http-nio-8080-exec-3] INFO  c.s.p.controller.AuthController - Login attempt for user: admin@gmail.com
+2026-04-29 09:54:06 [http-nio-8080-exec-3] WARN  c.s.p.controller.AuthController - Login failed for: admin@gmail.com
+2026-04-29 09:54:23 [http-nio-8080-exec-8] INFO  c.s.p.controller.AuthController - Login attempt for user: 2003swatikbarik@gmail.com
+2026-04-29 09:54:24 [http-nio-8080-exec-8] WARN  c.s.p.controller.AuthController - Login failed for: 2003swatikbarik@gmail.com
+2026-04-29 09:54:33 [http-nio-8080-exec-5] INFO  c.s.p.controller.AuthController - Login attempt for user: swatik
+2026-04-29 09:54:33 [http-nio-8080-exec-5] INFO  c.s.p.controller.AuthController - Login successful for: swatik
+2026-04-29 09:54:34 [http-nio-8080-exec-3] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 09:54:34 [http-nio-8080-exec-6] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 09:54:34 [http-nio-8080-exec-4] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 09:54:34 [http-nio-8080-exec-8] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 09:54:39 [http-nio-8080-exec-5] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 09:54:39 [http-nio-8080-exec-7] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 09:54:39 [http-nio-8080-exec-2] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 09:55:01 [http-nio-8080-exec-1] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 09:55:34 [http-nio-8080-exec-8] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 09:55:42 [http-nio-8080-exec-2] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 09:55:48 [http-nio-8080-exec-8] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 09:55:48 [http-nio-8080-exec-3] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 09:55:48 [http-nio-8080-exec-4] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 09:55:48 [http-nio-8080-exec-6] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 09:55:49 [http-nio-8080-exec-9] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 09:55:49 [http-nio-8080-exec-2] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 09:55:49 [http-nio-8080-exec-5] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 10:30:07 [RMI TCP Connection(57)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-04-29 10:30:07 [RMI TCP Connection(57)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-29 10:30:07 [RMI TCP Connection(57)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-04-29 10:30:07 [RMI TCP Connection(57)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-04-29 23:53:48 [main] INFO  c.s.portfolio.PortfolioApplication - Starting PortfolioApplication using Java 22.0.1 with PID 18028 (C:\Users\2003s\Downloads\swatik_portfolio_backend_fixed (6)\backend_fixed\target\classes started by 2003s in C:\Users\2003s\Downloads\swatik_portfolio_backend_fixed (6)\backend_fixed)
+2026-04-29 23:53:48 [main] DEBUG c.s.portfolio.PortfolioApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-04-29 23:53:48 [main] INFO  c.s.portfolio.PortfolioApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-29 23:53:49 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-29 23:53:49 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 108 ms. Found 6 JPA repository interfaces.
+2026-04-29 23:53:51 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-29 23:53:51 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-29 23:53:51 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-04-29 23:53:51 [main] INFO  o.a.c.c.C.[.[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2026-04-29 23:53:51 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3268 ms
+2026-04-29 23:53:52 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-29 23:53:52 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2026-04-29 23:53:52 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-29 23:53:52 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-29 23:53:52 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-29 23:53:52 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74eab077
+2026-04-29 23:53:52 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-04-29 23:53:53 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-29 23:53:54 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-29 23:53:54 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-29 23:53:55 [main] DEBUG c.s.portfolio.security.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2026-04-29 23:53:56 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-29 23:53:57 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+2026-04-29 23:53:57 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1b7c1c6f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f9b37b5, org.springframework.security.web.context.SecurityContextHolderFilter@5ba4735c, org.springframework.security.web.header.HeaderWriterFilter@353ac1ef, org.springframework.web.filter.CorsFilter@2f5a23c1, org.springframework.security.web.authentication.logout.LogoutFilter@41ff98dc, com.swatik.portfolio.security.JwtAuthFilter@e763080, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@361065d1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6984f7d1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17abef0f, org.springframework.security.web.session.SessionManagementFilter@72e806, org.springframework.security.web.access.ExceptionTranslationFilter@4d45b457, org.springframework.security.web.access.intercept.AuthorizationFilter@6b71fded]
+2026-04-29 23:53:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/api'
+2026-04-29 23:53:58 [main] INFO  c.s.portfolio.PortfolioApplication - Started PortfolioApplication in 10.866 seconds (process running for 12.212)
+2026-04-29 23:53:58 [main] INFO  c.swatik.portfolio.config.DataSeeder - Data seeding complete.
+2026-04-29 23:53:58 [main] INFO  c.s.portfolio.PortfolioApplication - ======================================================
+2026-04-29 23:53:58 [main] INFO  c.s.portfolio.PortfolioApplication -    Swatik Barik Portfolio Backend - STARTED
+2026-04-29 23:53:58 [main] INFO  c.s.portfolio.PortfolioApplication -    API running at: http://localhost:8080/api
+2026-04-29 23:53:58 [main] INFO  c.s.portfolio.PortfolioApplication - ======================================================
+2026-04-29 23:53:59 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[.[localhost].[/api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-29 23:53:59 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-29 23:53:59 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-04-29 23:54:24 [http-nio-8080-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/projects' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-04-29 23:55:26 [http-nio-8080-exec-6] INFO  c.s.p.controller.ContactController - New contact message from: 2003swatikbarik@gmail.com
+2026-04-29 23:56:29 [http-nio-8080-exec-2] INFO  c.s.p.controller.AuthController - Login attempt for user: swatik
+2026-04-29 23:56:31 [http-nio-8080-exec-2] INFO  c.s.p.controller.AuthController - Login successful for: swatik
+2026-04-29 23:56:31 [http-nio-8080-exec-10] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 23:56:31 [http-nio-8080-exec-9] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 23:56:31 [http-nio-8080-exec-8] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 23:56:31 [http-nio-8080-exec-7] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 23:56:45 [http-nio-8080-exec-5] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 23:56:45 [http-nio-8080-exec-6] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 23:56:45 [http-nio-8080-exec-4] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 23:56:55 [http-nio-8080-exec-1] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 23:56:55 [http-nio-8080-exec-3] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 23:56:55 [http-nio-8080-exec-5] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 23:56:55 [http-nio-8080-exec-2] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
+2026-04-29 23:57:29 [http-nio-8080-exec-4] DEBUG c.s.portfolio.security.JwtAuthFilter - Authenticated user: swatik
